@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-class Banner extends Component {
+class Bannerjour extends Component {
     render() {
         return (
             <div className="row ">
@@ -38,11 +37,9 @@ class Banner extends Component {
                                         </div>
                                         <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                                             <ul class="nav navbar-nav">
-                                                <li class="active"><a href="#Home">Home</a></li>
-                                                <li class=""><a href="Mainjournal">The Journal</a></li>
-                                                <li class=""><a href="#about">Daily Checklist</a></li>
-                                                <li class=""><a href="#testimonial">Mood State</a></li>
-                                                <li class=""><a href="#contact">Your account</a></li>
+                                                <li class=""><a href="/home">Home</a></li>
+                                                <li class=""><a href="/mainjournal">The Journal</a></li>
+                                                <li class=""><a href="/predict">Predict</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -71,4 +68,4 @@ class Banner extends Component {
         );
     }
 }
-export default Banner;
+export default Bannerjour;

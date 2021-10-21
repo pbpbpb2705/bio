@@ -4,7 +4,6 @@ import Bannerjour from './Bannerjour';
 function Mainjournal() {
     return (
         <div>
-            <Bannerjour />
             <Journal2 />
         </div>
     );
