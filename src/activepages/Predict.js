@@ -11,6 +11,9 @@ function Predict() {
   function handleClickCOVID() {
     history.push('/covid19');
   }
+  function handleClickFertility() {
+    history.push('/fertility');
+  }
     return (
       <div className="predict-container">
         <div className="button-container">
@@ -21,6 +24,9 @@ function Predict() {
           </button>
           <button className="btn1 btn-20px" onClick={handleClickCOVID}>
             Covid - 19
+          </button>
+          <button className="btn1 btn-20px" onClick={handleClickFertility}>
+            Fertility
           </button>
         </div>
       </div>
