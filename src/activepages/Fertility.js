@@ -41,8 +41,11 @@ function Fertility() {
           <h1>Frequency of alcohol consumption</h1>
           <select id="alcohol" class="form-control">
             <option value="blank">Select an option</option>
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="0">Several times a day</option>
+            <option value="0.25">Everyday</option>
+            <option value="0.5">Several times a week</option>
+            <option value="0.75">Once a week</option>
+            <option value="1">Hardly ever or never</option>
           </select>
           <h1>Smoking habit</h1>
           <select id="smoking" class="form-control">
@@ -54,8 +57,8 @@ function Fertility() {
           <h1>Number of hours spent sitting per day</h1>
           <select id="sitting-hours" class="form-control">
             <option value="blank">Select an option</option>
-            <option value="0">Yes</option>
-            <option value="1">No</option>"
+            <option value="0">Opt1</option>
+            <option value="1">Opt2</option>"
           </select>
 
           <button className="btn1 btn-20px" type="submit">
